@@ -1,0 +1,84 @@
+.sec-pricing{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 160px;
+}
+.pricing-title{
+ color: #fff;
+ font-size: 28px;
+ font-weight: 700;
+ margin-bottom: 12px;
+}
+.pricing-text{
+ color: #fff;
+ font-size: 10px;
+ font-weight: 500;
+ text-align: center;
+}
+.card{
+ background-color: #fff;
+ border-radius: 7px;
+ margin: 110px 1rem;
+ display: flex;
+ padding: 35px 25.53px;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.cards{
+ display: flex;
+}
+.card-title{
+ font-size: 17px;
+ font-weight: 700;
+ margin-bottom: 24px;
+}
+.card-text{
+ font-size: 12px;
+ font-weight: 700;
+ color: #737373;
+ margin-bottom: 25px;
+}
+.card-price{
+ font-size: 28px;
+ font-weight: 700;
+ color: #23A6F0;
+}
+.per-month{
+ font-size: 11px;
+ font-weight: 700;
+ color: #23A6F0;
+ margin-bottom: 35.6px;
+}
+.card-btn{
+ border: none;
+ color: #fff;
+ margin-bottom: 26px;
+ border-radius: 3.5px;
+ padding: 11px 29px;
+ font-size: 10px;
+ font-weight: 700;
+ background-color: #23A6F0;
+}
+.checked,.no-checked{
+ list-style: none;
+ font-size: 10px;
+ font-weight: 600;
+ display: flex;
+ margin-bottom: 10px;
+ align-items: center;
+}
+.checked::before{
+ margin-right: 6px;
+ content: url(../img/icn-circle\ circle-xs\ secondary-color-1.png);
+}
+.no-checked::before{
+ margin-right: 6px;
+content: url(../img/icn-circle\ circle-xs\ mute.png);
+}
+.checks{
+ text-align: start;
+}

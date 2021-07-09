@@ -1,0 +1,43 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: #252B42;
+}
+header{
+ padding: 2rem 10vw;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.panel{
+ display: flex;
+ list-style: none;
+}
+.panel-item{
+ margin: 0 2rem;
+}
+.panel-item a{
+ text-decoration: none;
+ color: #fff;
+}
+.login{
+ text-decoration: none;
+ color: #23A6F0;
+ font-weight: bold;
+ margin-right: 2rem;
+}
+.logo{
+ color: #fff;
+ cursor: pointer;
+}
+.nav-btn{
+ background-color: #23A6F0;
+ color: #fff;
+ border-radius: 4px;
+ border: none;
+ cursor: pointer;
+ padding: 11px 18px;
+}

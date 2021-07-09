@@ -1,0 +1,55 @@
+.sec-client{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 132px;
+}
+.clients-title{
+ color: #fff;
+ font-size: 28.53px;
+ font-weight: 700;
+}
+.clients-text{
+ color: #fff;
+ font-size: 10px;
+ font-weight: 500;
+margin-top: 10px;
+ text-align: center;
+}
+.client-1{
+ display: flex;
+ width:392px;
+ margin-right: 1rem;
+ background-color: #fff;
+}
+.client-title{
+ font-size: 17px;
+ font-weight: 700;
+}
+.client-job{
+ font-size: 10px;
+ font-weight: 600;
+ margin-bottom: 12px;
+}
+.client-texts{
+ padding: 0 21px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.clients{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 3rem;
+}
+.star{
+ margin: 0 3px;
+margin-bottom: 12px;
+}
+.client-text{
+ font-size: 10px;
+ font-weight: 500;
+ color: #737373;
+}

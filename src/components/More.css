@@ -1,0 +1,32 @@
+.sec-title{
+ color: #fff;
+ font-size: 41px;
+ text-align: center;
+}
+.sec-more{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 141px;
+ padding:0 35vw;
+}
+.sec-text{
+ text-align: center;
+ color: #fff;
+ margin-top: 28px;
+ padding: 10%;
+}
+.btn-item{
+ background:none;
+ border: 1px solid #fff;
+ border-radius: 25px;
+ color: #fff;
+ padding: 11px 26px;
+ margin-right: 1rem;
+ cursor: pointer;
+}
+.bg-primary{
+ background-color: #23A6f0;
+ border: 1px solid #23A6f0;
+}

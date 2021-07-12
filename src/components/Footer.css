@@ -1,0 +1,76 @@
+.foot-brand{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #fff;
+ padding-bottom: 2rem;
+ border-bottom: 1px solid #fff;
+}
+.sec-footer{
+ padding: 0 10%;
+}
+.foot-ic{
+ color: #23a6f0;
+ margin: 0 8px;
+ font-size: 20px;
+}
+.foot-title{
+ font-size: 20px;
+}
+.foot-ancer{
+ margin-top: 4rem;
+ font-size: 16px;
+ display: grid;
+ grid-template-columns: 200px 200px 200px 200px;
+ grid-template-rows: 50px 50px 50px 50px 50px;
+}
+.head-foot{
+ font-size: 18px;
+ font-weight: bolder;
+}
+.ancers{
+ color: #fff;
+ text-decoration: none;
+}
+.foot-mess{
+ display: flex;
+ margin-top: 40px;
+}
+.inputs{
+ display: flex;
+
+}
+.email-foot{
+ margin-top: 4rem;
+}
+.email-title{
+ color: #fff;
+margin-bottom: 2rem;
+}
+.inpt-email{
+ padding: 20px 10px;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border: none;
+}
+.btn-email{
+ border: none;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ color: #fff;
+ padding: 3px 9px;
+ background-color: #23a6f0;
+}
+@media screen and (max-width:960px) {
+ .foot-ancer{
+  margin-top: 4rem;
+  font-size: 16px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+ }
+ .foot-mess{
+  display: block;
+ }
+}

@@ -82,3 +82,19 @@ content: url(../img/icn-circle\ circle-xs\ mute.png);
 .checks{
  text-align: start;
 }
+@media screen and (max-width:960px) {
+ .cards{
+  display: block;
+ }
+ .card{
+
+  margin: 3rem 0;
+ }
+ .pricing-title{
+  font-size: 30px;
+ }
+ .pricing-text{
+  font-size: 15px;
+  padding: 0 20%;
+ }
+}

@@ -53,3 +53,24 @@ margin-bottom: 12px;
  font-weight: 500;
  color: #737373;
 }
+.client-img{
+ object-fit: cover;
+ width: 150px;
+ height: 100%;
+}
+@media screen and (max-width:960px) {
+ .clients{
+  display: block;
+ }
+ .client-img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+ }
+ .client-1{
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+ }
+}

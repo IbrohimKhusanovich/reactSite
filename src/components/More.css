@@ -30,3 +30,26 @@
  background-color: #23A6f0;
  border: 1px solid #23A6f0;
 }
+@media screen and (max-width:960px) {
+ .sec-title{
+  font-size: 150%;
+padding: 0 20%;
+line-height: 40px;
+ }
+ .sec-more{
+  padding: 0;
+  margin-top: 5rem;
+ }
+ .sec-btn{
+  margin-left: 6%;
+ }
+ .btn-item{
+  display: block;
+  margin-bottom: 1rem;
+ }
+}
+@media screen and (min-width:400px){
+.btn-item{
+ display: inline-block;
+}
+}

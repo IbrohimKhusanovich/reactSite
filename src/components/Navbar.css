@@ -41,3 +41,64 @@ header{
  cursor: pointer;
  padding: 11px 18px;
 }
+.media-nav{
+ display: none;
+}
+@media screen and (max-width:960px) {
+ header{
+  display: flex;
+  margin-top: -5rem;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: #363e5e;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 0 ;
+ }
+ .media-nav{
+  display: flex;
+  color: #fff;
+  margin-right: 20px;
+ }
+ .media-nav .fas{
+  margin: 0 10px;
+ }
+
+ .login,.nav-btn,.panel{
+  display: none;
+  position:absolute;
+ }
+ .panel{
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transform: translateX(100%);
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  padding: 15px 0;
+  padding-top:11rem;
+  margin: 0;
+  background-color: rgb(65, 64, 82);
+  transition:.3s;
+
+ }
+ .d-none{
+  display: block;
+  transform:translateX(0);
+ }
+ .panel-item a{
+  color: #fff;
+ }
+ .panel-item{
+  margin-bottom: 4rem;
+ }
+ .logo{
+  font-size: 100%;
+  margin-left: 20px;
+ }
+ .fa-bars{
+  z-index: 4;
+ }
+}

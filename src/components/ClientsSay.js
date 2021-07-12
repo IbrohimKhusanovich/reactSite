@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../img/user.1.png'
-import img2 from '../img/user.2.png'
+import img1 from '../img/user.2   (2).png'
+import img2 from '../img/user.2   (1).png'
 import star from '../img/Vector (4).png'
 import nostar from '../img/Vector (5).png'
 import './ClientsSay.css'

@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import icon from '../img/icn settings .icn-md.png'
 import icon2 from '../img/icn settings .icn-md (1).png'
-import videoImg from '../img/video.1 (1).jpg'
+import videoImg from '../img/video1.png'
 import videoPlay from '../img/Vector (6).png'
 function About() {
  return (

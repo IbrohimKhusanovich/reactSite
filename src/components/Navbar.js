@@ -14,9 +14,14 @@ function Navbar() {
    <a href="" className='login'>Login</a>
    <button className='nav-btn'>Become a member <i class="fas fa-long-arrow-alt-right"></i></button>
    </div>
-
+   <div className="media-nav">
+   <i class="fas fa-search"></i>
+   <i class="fas fa-shopping-cart"></i>
+   <i class="fas fa-bars" onClick={function menuBars(){ document.querySelector('.panel').classList.toggle('d-none')}}></i>
+   </div>
   </header>
  )
 }
+
 
 export default Navbar

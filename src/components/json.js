@@ -65,12 +65,12 @@ export let pricing=[
 ]
 export let getTouch=[
  {
-  icon:'fa-phone-alt'
+  icon:'ic fas fa-phone-alt'
  },
  {
-  icon:'fa-map-marker-alt'
+  icon:'ic fas fa-map-marker-alt'
  },
  {
-  icon:'fa-envelope'
+  icon:'ic fas fa-envelope'
  },
 ]
